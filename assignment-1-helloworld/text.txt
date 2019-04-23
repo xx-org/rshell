@@ -1,0 +1,22 @@
+This is text.txt file.
+this is test.txt file
+bin
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+CMakeLists.txt
+design_document.pdf
+file1.txt
+file2.txt
+file3.txt
+file4.txt
+googletest
+lib
+Makefile
+README.md
+rshell
+src
+test
+tests
+test.txt
+text.txt

@@ -1,0 +1,13 @@
+test -e ../tests
+echo AA #result: AA
+echo A #result: A
+echo B #result: B
+echo A && echo B || echo c ; echo D #result: A \n B \n D
+(echo A && echo B) || (echo C && echo D) #result: A \n B
+(((echo A)))
+((echo A ; echo B) ; (echo C || echo D) && echo E)
+ls #execute sys command ls
+ls #-a #execute sys command ls
+test -d ../src #execute the test command, result will be true
+[ ../tests ] #execute the test command, result will be true
+exit #exit the program
